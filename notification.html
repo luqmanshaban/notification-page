@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notifications</title>
+
+    <link rel="stylesheet" href="notification.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content-container">
+            <div class="header">
+                <h2>Notifications <span class="count">3</span></h2>
+                <p><button class="btn">Mark all as read</button></p>
+            </div>
+            <!-- #### -->
+            <div class="active-comments">
+                <!-- MARK -->
+                <div class="mark active-people p1">
+                    <img src="./images/avatar-mark-webber.webp" height="40px" alt="Mark">
+                    <h4>Mark Webber</h4>
+                    <p>reacted to you recent post</p>
+                    <p><b>My first tournament today!</b></p>
+                    <span class="redCircle rc1"></span>
+                    <p id="period">1m ago</p>
+                </div>
+                <!-- ANGELA -->
+                <div class="angela active-people p2">
+                    <img src="./images/avatar-angela-gray.webp" height="40px" alt="Mark">
+                    <h4>Angela Gray</h4>
+                    <p>followed you</p>
+                    <span class="redCircle rc2"></span>
+                    <p id="period">5m ago</p>
+                </div>
+                <!-- JACOB -->
+                <div class="jacob active-people p3">
+                    <img src="./images/avatar-jacob-thompson.webp" height="40px" alt="Mark">
+                    <h4>Jacob Thompson</h4>
+                    <p>has joined your group</p>
+                    <p><b style="color: rgb(0, 0, 54);">chess club</b></p>
+                    <span class="redCircle rc3"></span>
+                    <p id="period">1 day ago</p>
+                </div>
+                <!-- RIZKY -->
+                <div class="rizky">
+                    <div class="div">
+                        <div class="cont">
+                            <img src="./images/avatar-rizky-hasanuddin.webp" height="40px" alt="Mark">
+                            <h4>Rizky Hasanuddin</h4>
+                            <p>has joined your group</p>
+                            <p><b style="color: rgb(0, 0, 54);">chess club</b></p>
+                            <p id="period">5 days ago</p>
+                        </div>
+                        <div class="msg">
+                           <p>Hello, thanks for setting app the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- KIMBERLY -->
+                <div class="kimberly ">
+                    <div class="cont1">
+                        <img src="./images/avatar-kimberly-smith.webp" height="40px" alt="Mark">
+                        <h4>Kimberly Smith</h4>
+                        <p>commented on your picture</p>
+                        <p id="period">1 day ago</p>
+                    </div>
+                    <div class="cont2">
+                        <img src="./images/image-chess.webp" height="40px" alt="post">
+                    </div>
+                </div>
+                <!-- NATHAN -->
+                <div class="nathan ">
+                    <img src="./images/avatar-nathan-peterson.webp" height="40px" alt="nathan">
+                    <h4>Nathan Peterson</h4>
+                    <p>reacted to your post</p>
+                    <p><b>5 end-game strategies to increase your win rate</b></p>
+                    <p id="period">2 weeks ago</p>
+                </div>
+                <!-- ANNA -->
+                <div class="anna ">
+                    <img src="./images/avatar-anna-kim.webp" height="40px" alt="Anna">
+                    <h4>Anna Kim</h4>
+                    <p>left the group</p>
+                    <p><b style="color: rgb(0, 0, 54);">chess club</b></p>
+                    <p id="period">2 weeks ago</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="notification.js"></script>
+</body>
+</html>
